@@ -1,0 +1,53 @@
+{"intents":[
+    {"tag": "greetings",
+    "patterns":["Hello", "Hi", "hi", "Hello There", "Hello MovieBot", "Ok MovieBot", "MovieBot Hi", "Good Day"],
+    "responses": ["Hello There !! How can I help you ?", "Hi !!! How can I help ?", "Hi !! Ask me anything :) "]
+    },
+    {"tag": "Wishmorn" ,
+     "patterns":["Good Morning", "Morning"],
+     "responses":["Good Morning <User Name>"]
+    },
+    {"tag": "Wishing" ,
+     "patterns":["Good Evening", "Evening"], 
+     "responses":[ "Good Evening <User Name>"]
+    },
+    {"tag": "Wish" ,
+     "patterns":["Good Afternoon", "Afternoon"],
+     "responses": ["Good Afternoon <User Name>"]
+    },
+    {"tag": "Wishes" ,
+     "patterns":["Good night", "Night"] ,
+     "responses":["Good Night <User Name>"]
+    },
+    {"tag": "State",
+     "patterns":["how are you?"," How are you doing?"," Hows it going?","Whats up?","Whats new with you?","Its been a while!" ],
+     "responses":["I am fine just got <recent software update goes here> <list features>. How about you ?"]
+    },
+    {"tag":"Name",
+     "patterns":["Whats your name ?", "What is your name ?", "your name"],
+     "responses":["I am MovieBot , created by Binary Brains."]
+    },
+    {"tag": "Creator",
+     "patterns": ["Who created you", "Who is your creator", "How were you born","who made you","how were you made"] ,
+     "responses":["I was created by Binary Brains Team for the OTT platform <platform name> "]
+    },
+    {"tag": "Age",
+     "patterns": ["Whats your age", "your age", "how old are you", "when you were made"],
+     "responses":["My birthday is on 26th November, 2023 <The age will be updated accordingly>"]
+    },
+    {"tag": "Romance",
+     "patterns":["Suggest me some romance movies", "I want to watch some romance movies", "What are some romance movies i didnt watch"],
+     "_comment":"This list gets updated",
+     "responses": ["Roman Holiday","Carol","The Notebook", "Dirty Dancing", "Peggy Sue Got Married", "Beauty and the Beast(1991)", "The Princess Bride", "Love and Basketball", "Pretty Woman", "Crazy Rich Asians", "Love Actually","If Beale Street Could Talk","Moulin Rouge!", "Sleepless in Seattle", "Moonstruck", "Doctor Zhivago", "La La Land" ]
+    },
+    {"tag": "Mood1",
+     "patterns":["I am in a bad mood", "I am feeling down" ],
+     "_comment":"This list gets updated using their preferences info gathered during login say users like romantic movie during bad mood",
+     "responses": ["Roman Holiday","Carol","The Notebook", "Dirty Dancing", "Peggy Sue Got Married", "Beauty and the Beast(1991)", "The Princess Bride", "Love and Basketball", "Pretty Woman", "Crazy Rich Asians", "Love Actually","If Beale Street Could Talk","Moulin Rouge!", "Sleepless in Seattle", "Moonstruck", "Doctor Zhivago", "La La Land" ]
+    },
+    {"tag": "Action",
+     "patterns":["Suggest me some action movies", "I want to watch some action movies", "What are some action movies i didnt watch"],
+     "_comment":"This list gets updated",
+     "responses": ["Die Hard","Aliens (1986)","Seven Samurai (1954)", "The Wild Bunch (1969)", "Police Story", "Enter the Dragon", "Mad Max 2: The Road Warrior", "Hard Boiled", "Terminator 2: Judgment Day", "Raiders of the Lost Ark", "Kill Bill","Face/Off"]
+    }
+]}
